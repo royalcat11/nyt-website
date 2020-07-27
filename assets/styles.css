@@ -32,10 +32,21 @@ nav {
 }
 
 
- .mini-grid> figure>img {
+.mini-grid>figure>img {
     display: block;
     max-width: 100%;
     height: 60%;
+}
+
+.grid-4>figure>img {
+    display: block;
+    max-width: 100%;
+}
+
+.grid-4{
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,300px);
 }
 
 .mini-grid>figure figcaption {
