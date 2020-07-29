@@ -27,22 +27,35 @@ figure>img {
     /* Other */
 }
 
-/* Positioning */
-/* Display & Box Model */
-/* Color */
-/* Text */
-/* Other */
 
 /*direct childreen of parent container*/
 .header-nav {
-    border: 1px solid red;
-    grid-column: 1/-1;
+   
 
+/* Positioning */
+/* Display & Box Model */
+border: 1px solid red;
+grid-column: 1/-1;
+/* Color */
+/* Text */
+/* Other */
 }
 
 .content{
 
 }
+.sb-top-right{}
+
+.theory-article{
+
+}
+.sb-bottom-right{}
+
+.foot-nav-bottom{}
+
+
+/*children of sb-top-right*/
+
 .img-sb-top{
     width:20%;
     height:10%;
