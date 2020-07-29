@@ -13,19 +13,43 @@ figure>img {
     width: 100%;
 }
 
+
+/*layout*/
 .parent {
+
+    /* Positioning */
+    /* Display & Box Model */
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 12fr 1fr;
+    /* Color */
+    /* Text */
+    /* Other */
 }
 
+/* Positioning */
+/* Display & Box Model */
+/* Color */
+/* Text */
+/* Other */
 
-
-header {
+/*direct childreen of parent container*/
+.header-nav {
     border: 1px solid red;
     grid-column: 1/-1;
 
 }
+
+.content{
+
+}
+.img-sb-top{
+    width:20%;
+    height:10%;
+}
+
+
+
 
 nav {
     margin: 10px;
@@ -43,10 +67,10 @@ nav {
     max-width: 100%;
 }
 
-.grid-4{
-    display:grid;
+.grid-4 {
+    display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(3,300px);
+    grid-template-columns: repeat(3, 300px);
 }
 
 .mini-grid>figure figcaption {
